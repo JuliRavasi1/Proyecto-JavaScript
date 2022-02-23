@@ -25,7 +25,7 @@ function operacion() {
 }
 
 function ingresarMonto(){
-    let nuevo = parseInt(prompt("Digite El monto que va ingresar"))
+    let nuevo = parseInt(prompt("Digite el monto que va ingresar"))
     nuevo = numeroVal(nuevo)
     monto = monto + nuevo
 }
