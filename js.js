@@ -48,7 +48,7 @@ do {
     if(inicio != false){
         ingresarMonto()
         ingresargasto()
-        alert("El monto disponible ahora es: " + monto)
+        alert("El monto disponible ahora es: " + monto + "$")
         inicio = false
         
     }else if(inicio2 != false){
@@ -57,11 +57,11 @@ do {
     switch (operacionSeleccionada) {
         case 1:
             ingresarMonto()
-            alert("El nuevo monto disponible es: " + monto)
+            alert("El nuevo monto disponible es: " + monto + "$")
             break;
         case 2:
             ingresargasto()
-            alert("El nuevo monto disponible es: " + monto)
+            alert("El nuevo monto disponible es: " + monto + "$")
             break;
         default:
             alert("Gracias!!")
